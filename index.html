@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="imgs/logo.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whatsapp</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+</head>
+
+<body>
+    <div class="main">
+        <div class="nav">
+            <div class="nav1">
+                <svg width="2.4vh" height="2.4vh" fill="none" viewBox="0 0 24 24">
+                    <path fill="currentColor" fill-rule="evenodd"
+                        d="M4.838 8.455 5 8.704v9.129c0 .92.746 1.667 1.667 1.667h13.666c.92 0 1.667-.746 1.667-1.667V6.667C22 5.747 21.254 5 20.333 5H2.593zM8 14.5A1.5 1.5 0 0 1 9.5 13h5a1.5 1.5 0 0 1 0 3h-5A1.5 1.5 0 0 1 8 14.5M9.5 8a1.5 1.5 0 1 0 0 3h7a1.5 1.5 0 0 0 0-3z"
+                        clip-rule="evenodd" />
+                    <path fill="currentColor"
+                        d="m5 8.704.42-.273.08.124v.149zm-.162-.249-.419.273zM2.593 5l-.42.272-.502-.772h.922zM4.58 8.976l-.162-.248.839-.546.161.249zM4.5 9v-.296h1V9zm0 8.833V9h1v8.833zM6.667 20A2.167 2.167 0 0 1 4.5 17.833h1c0 .645.522 1.167 1.167 1.167zm13.666 0H6.667v-1h13.666zm2.167-2.167c0 1.197-.97 2.167-2.167 2.167v-1c.645 0 1.167-.522 1.167-1.167zm0-11.166v11.166h-1V6.667zM20.333 4.5c1.197 0 2.167.97 2.167 2.167h-1c0-.645-.522-1.167-1.167-1.167zm-17.74 0h17.74v1H2.593zm1.826 4.227L2.173 5.272l.839-.544 2.246 3.455zM9.5 13.5a1 1 0 0 0-1 1h-1a2 2 0 0 1 2-2zm5 0h-5v-1h5zm1 1a1 1 0 0 0-1-1v-1a2 2 0 0 1 2 2zm-1 1a1 1 0 0 0 1-1h1a2 2 0 0 1-2 2zm-5 0h5v1h-5zm-1-1a1 1 0 0 0 1 1v1a2 2 0 0 1-2-2zm-1-5a2 2 0 0 1 2-2v1a1 1 0 0 0-1 1zm2 2a2 2 0 0 1-2-2h1a1 1 0 0 0 1 1zm7 0h-7v-1h7zm2-2a2 2 0 0 1-2 2v-1a1 1 0 0 0 1-1zm-2-2a2 2 0 0 1 2 2h-1a1 1 0 0 0-1-1zm-7 0h7v1h-7z" />
+                </svg>
+                <svg width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path fill="currentColor"
+                        d="M13.563 3.137c.096-.544.616-.912 1.148-.763a10 10 0 0 1 6.98 12.092c-.136.535-.715.802-1.234.613-.52-.189-.78-.762-.657-1.3a8 8 0 0 0-5.44-9.423c-.527-.163-.893-.675-.797-1.22M18.894 17.785c.423.355.482.99.086 1.375a10 10 0 0 1-11.207 1.902 10 10 0 0 1-2.755-1.902c-.395-.386-.336-1.021.087-1.376s1.05-.294 1.455.081a8 8 0 0 0 10.88.001c.404-.375 1.031-.436 1.454-.081M3.543 15.078c-.52.189-1.098-.078-1.235-.613A10 10 0 0 1 9.29 2.375c.532-.15 1.052.218 1.148.762.096.543-.27 1.056-.798 1.22a8 8 0 0 0-5.44 9.42c.124.539-.137 1.112-.656 1.301" />
+                    <path fill="currentColor" fill-rule="evenodd"
+                        d="M12 16a4 4 0 1 0 0-8 4 4 0 0 0 0 8m0 2a6 6 0 1 0 0-12 6 6 0 0 0 0 12" clip-rule="evenodd" />
+                </svg>
+                <svg width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path fill="currentColor" fill-rule="evenodd"
+                        d="M15.83 8.634a1 1 0 0 1 1.366.365c.512.883.804 1.91.804 3.001a6 6 0 0 1-.804 3.001A1 1 0 0 1 15.466 14c.34-.588.534-1.27.534-2s-.195-1.412-.535-2a1 1 0 0 1 .365-1.366m-7.66 0A1 1 0 0 1 8.535 10 4 4 0 0 0 8 12c0 .73.195 1.412.535 2A1 1 0 0 1 6.804 15 6 6 0 0 1 6 12c0-1.091.292-2.118.804-3.001a1 1 0 0 1 1.366-.365"
+                        clip-rule="evenodd" />
+                    <path fill="currentColor" d="M13.5 12a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0" />
+                    <path fill="currentColor" fill-rule="evenodd"
+                        d="m5.332 16.483-.236.79c-.232.776-.475 1.598-.679 2.31.712-.204 1.534-.447 2.31-.68l.79-.235.727.389c1.12.6 2.397.943 3.756.943 4.415 0 8-3.585 8-8s-3.585-8-8-8-8 3.585-8 8c0 1.359.343 2.636.943 3.756zM3.18 16.7C2.63 18.54 2 20.69 2 21c0 .55.45 1 1 1 .31 0 2.46-.63 4.3-1.18 1.4.75 3 1.18 4.7 1.18 5.52 0 10-4.48 10-10S17.52 2 12 2 2 6.48 2 12c0 1.7.43 3.3 1.18 4.7"
+                        clip-rule="evenodd" />
+                </svg>
+                <svg width="24" height="24" fill="none" viewBox="0 0 24 24">
+                    <path fill="currentColor" fill-rule="evenodd"
+                        d="M6.37 18.673a1.8 1.8 0 0 1-.361-.476 1.8 1.8 0 0 1-.214-.764c-.015-.504-.038-1.499.022-1.941a2.7 2.7 0 0 1 .134-.55c.072-.201.167-.382.277-.544a2.8 2.8 0 0 1 .89-.825c.461-.284.978-.461 1.41-.587a12.69 12.69 0 0 1 6.943 0c.433.126.95.303 1.412.587l.102.066c.288.19.568.438.787.759q.167.243.277.544.092.253.134.55c.06.442.037 1.437.022 1.941a1.8 1.8 0 0 1-.214.764 1.8 1.8 0 0 1-.362.476c-.215.199-.475.327-.753.327H7.124c-.278 0-.538-.128-.753-.327m13.59-3.269c.05.59.043.859.032 1.596-.003.22-.007.393-.01.486-.013.444-.118 1.14-.295 1.514h2.974c.716 0 1.313-1.846 1.33-2.576.009-.409.02-.13-.017-.468-.082-.722-.495-1.246-.95-1.596-.437-.337-.955-.551-1.415-.683l-.018-.005-.01-.003-.18-.049a7.5 7.5 0 0 0-2.16-.224 4.2 4.2 0 0 1 .482.946 4.5 4.5 0 0 1 .238 1.062m-2.026-3.955a2.65 2.65 0 0 0 1.621.551 2.669 2.669 0 0 0 2.667-2.67 2.66 2.66 0 0 0-2.666-2.66 2.663 2.663 0 0 0-1.622 4.78m-3.036-1.83A3.54 3.54 0 0 0 15.512 7 3.56 3.56 0 0 0 12 4a3.56 3.56 0 0 0-2.898 5.619A3.547 3.547 0 0 0 12 11.11a3.55 3.55 0 0 0 2.898-1.491m-7.878.405a2.67 2.67 0 0 0-.576-2.455 2.66 2.66 0 0 0-2-.899 2.66 2.66 0 0 0-2.666 2.66 2.67 2.67 0 0 0 3.042 2.644 2.676 2.676 0 0 0 2.2-1.95m-4.421 3.597-.18.048q-.006 0-.01.003l-.018.005c-.46.132-.979.346-1.416.683-.454.35-.867.874-.949 1.596-.038.337-.026 1.06-.017 1.468C.026 18.154.623 19 1.34 19h2.974c-.177-.375-.282-1.07-.295-1.514L4.008 17c-.011-.737-.018-1.006.031-1.596q.007-.086.016-.151a4.5 4.5 0 0 1 .39-1.311q.142-.295.314-.546a7 7 0 0 0-.315-.007 7.5 7.5 0 0 0-1.845.232M12 14.5c-1.21 0-2.22.205-2.915.407-.377.109-.688.226-.92.368-.223.138-.3.254-.332.341a.7.7 0 0 0-.034.143v.014c-.003.036-.009.142-.013.34-.006.235-.008.524-.008.825 0 .387.004-.227.008.061h8.428c.004-.288.008.326.008-.06 0-.302-.002-.59-.008-.826-.004-.198-.01-.304-.012-.34q-.002-.02 0-.013a.7.7 0 0 0-.035-.144c-.032-.087-.11-.203-.333-.34-.23-.143-.542-.26-.919-.37A10.6 10.6 0 0 0 12 14.5M12 6a1.56 1.56 0 0 0-1.556 1.56c0 .855.693 1.55 1.556 1.55a1.55 1.55 0 0 0 1.556-1.55c0-.862-.7-1.56-1.556-1.56"
+                        clip-rule="evenodd" />
+                </svg>
+                <img src="imgs/meta.png" alt="" height="24.4vh" width="25vw">
+            </div>
+
+            <div class="nav2">
+                <svg width="26" height="26" fill="none" viewBox="0 0 24 24">
+                    <circle cx="12" cy="12" r="2.5" stroke="currentColor" stroke-width="2" style="stroke-opacity:1" />
+                    <mask id="a" fill="#fff">
+                        <path fill-rule="evenodd"
+                            d="M10.125 22h3.75q.375 0 .65-.25a1 1 0 0 0 .325-.625l.3-2.325q.3-.124.6-.3.3-.175.575-.375l2.125.9q.35.125.713.013a.98.98 0 0 0 .562-.438l1.85-3.2a.94.94 0 0 0 .125-.7.96.96 0 0 0-.375-.6l-1.875-1.425q.05-.176.05-.338v-.675q0-.162-.025-.337L21.35 9.9a.96.96 0 0 0 .375-.6.94.94 0 0 0-.125-.7l-1.85-3.225a.93.93 0 0 0-.55-.425 1.12 1.12 0 0 0-.7.025l-2.175.9a8 8 0 0 0-.562-.375 4 4 0 0 0-.613-.3l-.3-2.325a1 1 0 0 0-.325-.625.93.93 0 0 0-.65-.25h-3.75a.93.93 0 0 0-.65.25 1 1 0 0 0-.325.625L8.85 5.2q-.3.125-.6.3t-.575.375l-2.175-.9a1.22 1.22 0 0 0-.712-.037.79.79 0 0 0-.538.437L2.4 8.6a.94.94 0 0 0-.125.7q.075.375.375.6l1.875 1.425q-.024.176-.025.338v.675q0 .162.025.337L2.65 14.1a.96.96 0 0 0-.375.6.94.94 0 0 0 .125.7l1.85 3.225a.93.93 0 0 0 .55.425q.35.1.7-.025l2.175-.9q.276.2.563.375.288.175.612.3l.3 2.325q.05.375.325.625t.65.25"
+                            clip-rule="evenodd" />
+                    </mask>
+                    <path fill="currentColor"
+                        d="m14.85 21.125 1.983.264v-.008zm.3-2.325-.769-1.846-1.066.444-.148 1.146zm1.175-.675.78-1.842-1.041-.44-.915.665zm2.125.9-.78 1.842.053.022.055.02zm1.275-.425 1.704 1.048.014-.023.014-.024zm1.85-3.2-1.703-1.048-.014.023-.014.024zm-.25-1.3-1.21 1.592.01.008zm-1.875-1.425-1.923-.55-.375 1.315 1.088.827zm.025-1.35-1.21-1.592-.936.711.166 1.164zM21.35 9.9l-1.2-1.6-.01.008zm.25-1.3-1.735.995.016.027.016.026zm-1.85-3.225 1.735-.995-.015-.027-.016-.026zm-1.25-.4-.672-1.883-.047.016-.045.019zm-2.175.9L15.15 7.492l.906.66 1.035-.429zM15.15 5.2l-1.983.256.152 1.183 1.113.428zm-.3-2.325 1.984-.256-.001-.008zm-.325-.625L15.871.77zm-5.05 0L8.13.77zm-.325.625-1.982-.264-.001.008zM8.85 5.2l.77 1.846 1.066-.444.148-1.146zm-1.175.675-.764 1.848 1.035.428.906-.659zm-2.175-.9.765-1.848-.046-.019-.046-.016zm-.712-.037-.47-1.945zm-.538.437 1.735.995.029-.05.025-.05zM2.4 8.6l1.704 1.048.016-.026.015-.027zm-.125.7 1.962-.392zm.375.6 1.21-1.592-.01-.008zm1.875 1.425 1.98.283.167-1.164-.936-.711zm0 1.35 1.21 1.592.936-.711-.166-1.164zM2.65 14.1l1.2 1.6.01-.008zm-.375.6 1.962.392zm.125.7 1.735-.995-.015-.027-.016-.026zm1.85 3.225-1.734.995.015.027.016.026zm1.25.4.673 1.884.046-.017.046-.019zm2.175-.9 1.177-1.617-.906-.66-1.035.429zm1.175.675 1.984-.256-.153-1.183-1.113-.428zm.3 2.325-1.983.256v.008zM13.875 20h-3.75v4h3.75zm-.695.27c.08-.072.19-.146.327-.2.138-.052.267-.07.368-.07v4c.743 0 1.44-.265 1.996-.77zm-.312.59a.996.996 0 0 1 .312-.59l2.69 2.96c.54-.49.868-1.132.963-1.84zm.299-2.316-.3 2.325 3.967.512.3-2.325zm1.576-1.772a3 3 0 0 1-.362.182l1.539 3.692q.43-.18.838-.418zm.406-.264a5 5 0 0 1-.406.264l2.015 3.456q.386-.225.744-.486zm4.081.675-2.125-.9-1.56 3.684 2.125.9zm-.66-.056a.9.9 0 0 1 .553.014l-1.345 3.767c.65.233 1.332.24 1.978.04zm-.548.425a1 1 0 0 1 .235-.259 1 1 0 0 1 .313-.166l1.186 3.82a2.98 2.98 0 0 0 1.673-1.299zm1.822-3.153-1.85 3.2 3.463 2.002 1.85-3.2zm-.105.693a1 1 0 0 1-.001-.381c.026-.148.079-.27.134-.36l3.407 2.097a2.94 2.94 0 0 0 .383-2.14zm.386.608a1.03 1.03 0 0 1-.386-.608l3.922-.784a2.96 2.96 0 0 0-1.136-1.808zm-1.885-1.433 1.875 1.425 2.42-3.184-1.875-1.425zm-.74-1.93a.8.8 0 0 1 .027-.211l3.846 1.098c.079-.274.127-.572.127-.886zm0-.675v.675h4v-.675zm-.005-.054.005.054h4q0-.316-.045-.62zm2.645-3.3-1.875 1.425 2.42 3.184 1.876-1.425zm-.376.6a1.032 1.032 0 0 1 .386-.608l2.4 3.2a2.96 2.96 0 0 0 1.136-1.808zm.133.74a1 1 0 0 1-.134-.359 1 1 0 0 1 .001-.381l3.922.784a2.94 2.94 0 0 0-.382-2.14zM18.016 6.37l1.85 3.225 3.47-1.99-1.85-3.225zm.635.503a1.08 1.08 0 0 1-.604-.45l3.407-2.096a2.93 2.93 0 0 0-1.704-1.3zm.522-.015a.88.88 0 0 1-.522.015l1.099-3.846a3.1 3.1 0 0 0-1.922.065zm-2.083.865 2.175-.9-1.53-3.696-2.174.9zm-2.367-.515q.216.132.426.284l2.353-3.234a10 10 0 0 0-.7-.466zm-.29-.141q.162.063.29.141l2.08-3.416a6 6 0 0 0-.935-.459zM12.866 3.13l.3 2.325 3.967-.512-.3-2.325zm.313.599a1 1 0 0 1-.312-.59l3.965-.53A3 3 0 0 0 15.87.77zm.695.27a1.048 1.048 0 0 1-.695-.27L15.87.77A2.93 2.93 0 0 0 13.876 0zm-3.75 0h3.75V0h-3.75zm.696-.27a1.05 1.05 0 0 1-.696.27V0c-.742 0-1.44.265-1.995.77zm.312-.59a.995.995 0 0 1-.312.59L8.13.77a3 3 0 0 0-.962 1.84zm-.3 2.316.3-2.325-3.966-.512-.3 2.325zM9.259 7.228q.193-.112.362-.182L8.08 3.354q-.431.18-.838.418zm-.406.264q.192-.139.406-.264L7.243 3.772q-.385.225-.744.486zm-4.116-.669 2.175.9L8.44 4.027l-2.175-.9zm.521.059a.76.76 0 0 1-.43-.024l1.346-3.766a3.2 3.2 0 0 0-1.854-.099zm.782-.613a1.218 1.218 0 0 1-.782.612L4.32 2.994A2.78 2.78 0 0 0 2.46 4.481zM4.135 9.595l1.85-3.225-3.47-1.99-1.85 3.225zm.102-.687c.02.101.027.233 0 .381-.025.148-.078.27-.133.36L.697 7.551a2.94 2.94 0 0 0-.383 2.14zM3.85 8.3a1.03 1.03 0 0 1 .387.608l-3.923.784A2.96 2.96 0 0 0 1.45 11.5zm1.886 1.433L3.86 8.308l-2.42 3.184 1.874 1.425zm.764 1.93q-.001-.009.005-.055l-3.96-.566q-.043.304-.045.62zm0 .675v-.675h-4v.675zm.005.054-.005-.054h-4q.002.316.045.62zm-2.644 3.3 1.874-1.425-2.42-3.184-1.875 1.425zm.376-.6a1.032 1.032 0 0 1-.386.608l-2.4-3.2a2.96 2.96 0 0 0-1.137 1.808zm-.133-.74c.055.09.108.211.134.359s.019.28-.002.381l-3.922-.784a2.94 2.94 0 0 0 .383 2.14zm1.881 3.278-1.85-3.225-3.47 1.99 1.85 3.225zm-.635-.503a1.08 1.08 0 0 1 .604.45l-3.407 2.096c.381.62.965 1.089 1.704 1.3zm-.522.015a.877.877 0 0 1 .522-.015l-1.1 3.846a3.1 3.1 0 0 0 1.923-.064zm2.083-.865-2.175.9 1.529 3.696 2.175-.9zm2.367.515a6 6 0 0 1-.426-.285l-2.353 3.235q.34.249.699.466zm.29.141a2 2 0 0 1-.29-.141l-2.08 3.416q.447.272.934.459zm1.566 3.936-.3-2.325-3.967.512.3 2.325zm-.313-.599a1 1 0 0 1 .312.59l-3.965.53c.094.708.423 1.35.962 1.84zm-.696-.27a1.05 1.05 0 0 1 .695.27l-2.69 2.96c.555.505 1.253.77 1.995.77z"
+                        mask="url(#a)" style="fill-opacity:1" />
+                </svg>
+                <img src="imgs/main photo.jpg" alt="">
+            </div>
+        </div>
+        <div class="left">
+            <div class="mainnav">
+                <div class="navtxt">
+                    <h1>Chats</h1>
+                </div>
+                <div class="navicons">
+                    <svg width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path fill="currentColor"
+                            d="M9.533 12.991h1.976v1.976c0 .433.254.85.667.982a.994.994 0 0 0 1.315-.94v-2.018h1.976c.433 0 .851-.255.982-.668a.994.994 0 0 0-.94-1.314H13.49V9.033c0-.433-.255-.85-.668-.982a.995.995 0 0 0-1.314.94v2.018H9.49a.994.994 0 0 0-.94 1.314c.13.413.548.668.982.668" />
+                        <path fill="currentColor" fill-rule="evenodd"
+                            d="M.944 5.526 3 8.848v8.485A2.667 2.667 0 0 0 5.667 20h13.666A2.667 2.667 0 0 0 22 17.333V6.667A2.667 2.667 0 0 0 19.333 4H1.795a1 1 0 0 0-.85 1.526M5 8.28v9.053c0 .369.298.667.667.667h13.666a.667.667 0 0 0 .667-.667V6.667A.667.667 0 0 0 19.333 6H3.59z"
+                            clip-rule="evenodd" />
+                    </svg>
+                    <svg width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="currentColor"
+                            d="M12 7a2 2 0 1 0-.001-4.001A2 2 0 0 0 12 7m0 2a2 2 0 1 0-.001 3.999A2 2 0 0 0 12 9m0 6a2 2 0 1 0-.001 3.999A2 2 0 0 0 12 15" />
+                    </svg>
+                </div>
+            </div>
+            <br>
+            <input type="text" placeholder="&#xF002; Search" style="font-family:Arial, FontAwesome" />
+            <div class="chats">
+                <div class="chat">
+                    <div class="chatphoto"><img src="imgs/photo 6.png" alt="" width="62vw"></div>
+                    <div class="chattxt">
+                        <span>Unknown Number</span> <br>
+                        <p>This Message Was Deleted</p>
+                    </div>
+                </div>
+                <div class="chat">
+                    <div class="chatphoto"><img src="imgs/photo 1.png" alt="" width="62vw"></div>
+                    <div class="chattxt">
+                        <span>Unknown Number</span> <br>
+                        <p>Reacted <i class="fa-solid fa-thumbs-up" style="color: #FFD43B;"></i> To Your Message</p>
+                    </div>
+                </div>
+                <div class="chat">
+                    <div class="chatphoto"><img src="imgs/photo 2.png" alt="" width="62vw"></div>
+                    <div class="chattxt">
+                        <span>Unknown Number</span> <br>
+                        <p><i class="fa-regular fa-image"></i> Photo</p>
+                    </div>
+                </div>
+                <div class="chat">
+                    <div class="chatphoto"><img src="imgs/photo 3.png" alt="" width="62vw"></div>
+                    <div class="chattxt">
+                        <span>Unknown Number</span> <br>
+                        <p><i class="fa-solid fa-video"></i> Video</p>
+                    </div>
+                </div>
+                    <div class="chat1">
+                        <div class="chatphoto"><img src="imgs/photo 4.png" alt="" width="62vw"></div>
+                        <div class="chattxt">
+                            <span>Unknown Number</span> <br>
+                            <p>How Are You?</p>
+                        </div>
+                    </div>
+                <div class="chat">
+                    <div class="chatphoto"><img src="imgs/photo 5.png" alt="" width="62vw"></div>
+                    <div class="chattxt">
+                        <span>Unknown Number</span> <br>
+                        <p>Jazakallah <i class="fa-solid fa-heart" style="color: #ff0000;"></i></p>
+                    </div>
+
+                </div>
+                <div class="chat">
+                    <div class="chatphoto"><img src="imgs/photo 7.png" alt="" width="62vw"></div>
+                    <div class="chattxt">
+                        <span>Unknown Number</span> <br>
+                        <p><i class="fa-solid fa-thumbs-up" style="color: #FFD43B;"></i><i class="fa-solid fa-thumbs-up"
+                                style="color: #FFD43B;"><i class="fa-solid fa-thumbs-up"
+                                    style="color: #FFD43B;"></i></i></p>
+                    </div>
+                </div>
+                <div class="chat">
+                    <div class="chatphoto"><img src="imgs/photo 8.png" alt="" width="62vw"></div>
+                    <div class="chattxt">
+                        <span>Unknown Number</span> <br>
+                        <p>Hello</p>
+                    </div>
+                </div>
+                <div class="chat">
+                    <div class="chatphoto"><img src="imgs/photo 9.png" alt="" width="62vw"></div>
+                    <div class="chattxt">
+                        <span>Unknown Number</span> <br>
+                        <p><i class="fa-solid fa-video"></i> Video</p>
+                    </div>
+                </div>
+
+                <div class="chat">
+                    <div class="chatphoto"><img src="imgs/photo 8.png" alt="" width="62vw"></div>
+                    <div class="chattxt">
+                        <span>Unknown Number</span> <br>
+                        <p>Hello</p>
+                    </div>
+                </div>
+                <div class="chat">
+                    <div class="chatphoto"><img src="imgs/photo 9.png" alt="" width="62vw"></div>
+                    <div class="chattxt">
+                        <span>Unknown Number</span> <br>
+                        <p><i class="fa-solid fa-video"></i> Video</p>
+                    </div>
+                </div>
+                <div class="chat">
+                    <div class="chatphoto"><img src="imgs/photo 7.png" alt="" width="62vw"></div>
+                    <div class="chattxt">
+                        <span>Unknown Number</span> <br>
+                        <p><i class="fa-solid fa-thumbs-up" style="color: #FFD43B;"></i><i class="fa-solid fa-thumbs-up"
+                                style="color: #FFD43B;"><i class="fa-solid fa-thumbs-up"
+                                    style="color: #FFD43B;"></i></i></p>
+                    </div>
+                </div>
+                <div class="chat">
+                    <div class="chatphoto"><img src="imgs/photo 1.png" alt="" width="62vw"></div>
+                    <div class="chattxt">
+                        <span>Unknown Number</span> <br>
+                        <p>Reacted <i class="fa-solid fa-thumbs-up" style="color: #FFD43B;"></i> To Your Message</p>
+                    </div>
+                </div>
+                <div class="chat">
+                    <div class="chatphoto"><img src="imgs/photo 2.png" alt="" width="62vw"></div>
+                    <div class="chattxt">
+                        <span>Unknown Number</span> <br>
+                        <p><i class="fa-regular fa-image"></i> Photo</p>
+                    </div>
+                </div>
+                <div class="chat">
+                    <div class="chatphoto"><img src="imgs/photo 6.png" alt="" width="62vw"></div>
+                    <div class="chattxt">
+                        <span>Unknown Number</span> <br>
+                        <p>This Message Was Deleted</p>
+                    </div>
+                </div>
+                <div class="chat">
+                    <div class="chatphoto"><img src="imgs/photo 1.png" alt="" width="62vw"></div>
+                    <div class="chattxt">
+                        <span>Unknown Number</span> <br>
+                        <p>Reacted <i class="fa-solid fa-thumbs-up" style="color: #FFD43B;"></i> To Your Message</p>
+                    </div>
+                </div>
+                <div class="chat">
+                    <div class="chatphoto"><img src="imgs/photo 2.png" alt="" width="62vw"></div>
+                    <div class="chattxt">
+                        <span>Unknown Number</span> <br>
+                        <p><i class="fa-regular fa-image"></i> Photo</p>
+                    </div>
+                </div>
+                <div class="chat">
+                    <div class="chatphoto"><img src="imgs/photo 3.png" alt="" width="62vw"></div>
+                    <div class="chattxt">
+                        <span>Unknown Number</span> <br>
+                        <p><i class="fa-solid fa-video"></i> Video</p>
+                    </div>
+                </div>
+                <div class="chat">
+                    <div class="chatphoto"><img src="imgs/photo 4.png" alt="" width="62vw"></div>
+                    <div class="chattxt">
+                        <span>Unknown Number</span> <br>
+                        <p>Jazakallah<i class="fa-solid fa-heart" style="color: #ff0000;"></i></p>
+                    </div>
+                </div>
+                <div class="chat">
+                    <div class="chatphoto"><img src="imgs/photo 5.png" alt="" width="62vw"></div>
+                    <div class="chattxt">
+                        <span>Unknown Number</span> <br>
+                        <p>How Are You?</p>
+                    </div>
+
+                </div>
+                <div class="chat">
+                    <div class="chatphoto"><img src="imgs/photo 7.png" alt="" width="62vw"></div>
+                    <div class="chattxt">
+                        <span>Unknown Number</span> <br>
+                        <p><i class="fa-solid fa-thumbs-up" style="color: #FFD43B;"></i><i class="fa-solid fa-thumbs-up"
+                                style="color: #FFD43B;"><i class="fa-solid fa-thumbs-up"
+                                    style="color: #FFD43B;"></i></i></p>
+                    </div>
+                </div>
+                <div class="chat">
+                    <div class="chatphoto"><img src="imgs/photo 8.png" alt="" width="62vw"></div>
+                    <div class="chattxt">
+                        <span>Unknown Number</span> <br>
+                        <p>Hello</p>
+                    </div>
+                </div>
+                <div class="chat">
+                    <div class="chatphoto"><img src="imgs/photo 9.png" alt="" width="62vw"></div>
+                    <div class="chattxt">
+                        <span>Unknown Number</span> <br>
+                        <p><i class="fa-solid fa-video"></i> Video</p>
+                    </div>
+                </div>
+
+                <div class="chat">
+                    <div class="chatphoto"><img src="imgs/photo 8.png" alt="" width="62vw"></div>
+                    <div class="chattxt">
+                        <span>Unknown Number</span> <br>
+                        <p>Hello</p>
+                    </div>
+                </div>
+                <div class="chat">
+                    <div class="chatphoto"><img src="imgs/photo 9.png" alt="" width="62vw"></div>
+                    <div class="chattxt">
+                        <span>Unknown Number</span> <br>
+                        <p><i class="fa-solid fa-video"></i> Video</p>
+                    </div>
+                </div>
+                <div class="chat">
+                    <div class="chatphoto"><img src="imgs/photo 7.png" alt="" width="62vw"></div>
+                    <div class="chattxt">
+                        <span>Unknown Number</span> <br>
+                        <p><i class="fa-solid fa-thumbs-up" style="color: #FFD43B;"></i><i class="fa-solid fa-thumbs-up"
+                                style="color: #FFD43B;"><i class="fa-solid fa-thumbs-up"
+                                    style="color: #FFD43B;"></i></i></p>
+                    </div>
+                </div>
+                <div class="chat">
+                    <div class="chatphoto"><img src="imgs/photo 1.png" alt="" width="62vw"></div>
+                    <div class="chattxt">
+                        <span>Unknown Number</span> <br>
+                        <p>Reacted <i class="fa-solid fa-thumbs-up" style="color: #FFD43B;"></i> To Your Message</p>
+                    </div>
+                </div>
+                <div class="chat">
+                    <div class="chatphoto"><img src="imgs/photo 2.png" alt="" width="62vw"></div>
+                    <div class="chattxt">
+                        <span>Unknown Number</span> <br>
+                        <p><i class="fa-regular fa-image"></i> Photo</p>
+                    </div>
+                </div>
+                <div class="chat">
+                    <div class="chatphoto"><img src="imgs/photo 6.png" alt="" width="62vw"></div>
+                    <div class="chattxt">
+                        <span>Unknown Number</span> <br>
+                        <p>This Message Was Deleted</p>
+                    </div>
+                </div>
+                <div class="chat">
+                    <div class="chatphoto"><img src="imgs/photo 1.png" alt="" width="62vw"></div>
+                    <div class="chattxt">
+                        <span>Unknown Number</span> <br>
+                        <p>Reacted <i class="fa-solid fa-thumbs-up" style="color: #FFD43B;"></i> To Your Message</p>
+                    </div>
+                </div>
+                <div class="chat">
+                    <div class="chatphoto"><img src="imgs/photo 2.png" alt="" width="62vw"></div>
+                    <div class="chattxt">
+                        <span>Unknown Number</span> <br>
+                        <p><i class="fa-regular fa-image"></i> Photo</p>
+                    </div>
+                </div>
+                <div class="chat">
+                    <div class="chatphoto"><img src="imgs/photo 3.png" alt="" width="62vw"></div>
+                    <div class="chattxt">
+                        <span>Unknown Number</span> <br>
+                        <p><i class="fa-solid fa-video"></i> Video</p>
+                    </div>
+                </div>
+                <div class="chat">
+                    <div class="chatphoto"><img src="imgs/photo 4.png" alt="" width="62vw"></div>
+                    <div class="chattxt">
+                        <span>Unknown Number</span> <br>
+                        <p>Jazakallah</p>
+                    </div>
+                </div>
+                <div class="chat">
+                    <div class="chatphoto"><img src="imgs/photo 5.png" alt="" width="62vw"></div>
+                    <div class="chattxt">
+                        <span>Unknown Number</span> <br>
+                        <p>How Are You?</p>
+                    </div>
+
+                </div>
+                <div class="chat">
+                    <div class="chatphoto"><img src="imgs/photo 7.png" alt="" width="62vw"></div>
+                    <div class="chattxt">
+                        <span>Unknown Number</span> <br>
+                        <p><i class="fa-solid fa-thumbs-up" style="color: #FFD43B;"></i><i class="fa-solid fa-thumbs-up"
+                                style="color: #FFD43B;"><i class="fa-solid fa-thumbs-up"
+                                    style="color: #FFD43B;"></i></i></p>
+                    </div>
+                </div>
+                <div class="chat">
+                    <div class="chatphoto"><img src="imgs/photo 8.png" alt="" width="62vw"></div>
+                    <div class="chattxt">
+                        <span>Unknown Number</span> <br>
+                        <p>Hello</p>
+                    </div>
+                </div>
+                <div class="chat">
+                    <div class="chatphoto"><img src="imgs/photo 9.png" alt="" width="62vw"></div>
+                    <div class="chattxt">
+                        <span>Unknown Number</span> <br>
+                        <p><i class="fa-solid fa-video"></i> Video</p>
+                    </div>
+                </div>
+
+                <div class="chat">
+                    <div class="chatphoto"><img src="imgs/photo 8.png" alt="" width="62vw"></div>
+                    <div class="chattxt">
+                        <span>Unknown Number</span> <br>
+                        <p>Hello</p>
+                    </div>
+                </div>
+                <div class="chat">
+                    <div class="chatphoto"><img src="imgs/photo 9.png" alt="" width="62vw"></div>
+                    <div class="chattxt">
+                        <span>Unknown Number</span> <br>
+                        <p><i class="fa-solid fa-video"></i> Video</p>
+                    </div>
+                </div>
+                <div class="chat">
+                    <div class="chatphoto"><img src="imgs/photo 7.png" alt="" width="62vw"></div>
+                    <div class="chattxt">
+                        <span>Unknown Number</span> <br>
+                        <p><i class="fa-solid fa-thumbs-up" style="color: #FFD43B;"></i><i class="fa-solid fa-thumbs-up"
+                                style="color: #FFD43B;"><i class="fa-solid fa-thumbs-up"
+                                    style="color: #FFD43B;"></i></i></p>
+                    </div>
+                </div>
+                <div class="chat">
+                    <div class="chatphoto"><img src="imgs/photo 1.png" alt="" width="62vw"></div>
+                    <div class="chattxt">
+                        <span>Unknown Number</span> <br>
+                        <p>Reacted <i class="fa-solid fa-thumbs-up" style="color: #FFD43B;"></i> To Your Message</p>
+                    </div>
+                </div>
+                <div class="chat">
+                    <div class="chatphoto"><img src="imgs/photo 2.png" alt="" width="62vw"></div>
+                    <div class="chattxt">
+                        <span>Unknown Number</span> <br>
+                        <p><i class="fa-regular fa-image"></i> Photo</p>
+                    </div>
+                </div>
+                <div class="chat">
+                    <div class="chatphoto"><img src="imgs/photo 6.png" alt="" width="62vw"></div>
+                    <div class="chattxt">
+                        <span>Unknown Number</span> <br>
+                        <p>This Message Was Deleted</p>
+                    </div>
+                </div>
+                <div class="chat">
+                    <div class="chatphoto"><img src="imgs/photo 1.png" alt="" width="62vw"></div>
+                    <div class="chattxt">
+                        <span>Unknown Number</span> <br>
+                        <p>Reacted <i class="fa-solid fa-thumbs-up" style="color: #FFD43B;"></i> To Your Message</p>
+                    </div>
+                </div>
+                <div class="chat">
+                    <div class="chatphoto"><img src="imgs/photo 2.png" alt="" width="62vw"></div>
+                    <div class="chattxt">
+                        <span>Unknown Number</span> <br>
+                        <p><i class="fa-regular fa-image"></i> Photo</p>
+                    </div>
+                </div>
+                <div class="chat">
+                    <div class="chatphoto"><img src="imgs/photo 3.png" alt="" width="62vw"></div>
+                    <div class="chattxt">
+                        <span>Unknown Number</span> <br>
+                        <p><i class="fa-solid fa-video"></i> Video</p>
+                    </div>
+                </div>
+                <div class="chat">
+                    <div class="chatphoto"><img src="imgs/photo 4.png" alt="" width="62vw"></div>
+                    <div class="chattxt">
+                        <span>Unknown Number</span> <br>
+                        <p>Jazakallah</p>
+                    </div>
+                </div>
+                <div class="chat">
+                    <div class="chatphoto"><img src="imgs/photo 5.png" alt="" width="62vw"></div>
+                    <div class="chattxt">
+                        <span>Unknown Number</span> <br>
+                        <p>How Are You?</p>
+                    </div>
+
+                </div>
+                <div class="chat">
+                    <div class="chatphoto"><img src="imgs/photo 7.png" alt="" width="62vw"></div>
+                    <div class="chattxt">
+                        <span>Unknown Number</span> <br>
+                        <p><i class="fa-solid fa-thumbs-up" style="color: #FFD43B;"></i><i class="fa-solid fa-thumbs-up"
+                                style="color: #FFD43B;"><i class="fa-solid fa-thumbs-up"
+                                    style="color: #FFD43B;"></i></i></p>
+                    </div>
+                </div>
+                <div class="chat">
+                    <div class="chatphoto"><img src="imgs/photo 8.png" alt="" width="62vw"></div>
+                    <div class="chattxt">
+                        <span>Unknown Number</span> <br>
+                        <p>Hello</p>
+                    </div>
+                </div>
+                <div class="chat">
+                    <div class="chatphoto"><img src="imgs/photo 9.png" alt="" width="62vw"></div>
+                    <div class="chattxt">
+                        <span>Unknown Number</span> <br>
+                        <p><i class="fa-solid fa-video"></i> Video</p>
+                    </div>
+                </div>
+
+                <div class="chat">
+                    <div class="chatphoto"><img src="imgs/photo 8.png" alt="" width="62vw"></div>
+                    <div class="chattxt">
+                        <span>Unknown Number</span> <br>
+                        <p>Hello</p>
+                    </div>
+                </div>
+                <div class="chat">
+                    <div class="chatphoto"><img src="imgs/photo 9.png" alt="" width="62vw"></div>
+                    <div class="chattxt">
+                        <span>Unknown Number</span> <br>
+                        <p><i class="fa-solid fa-video"></i> Video</p>
+                    </div>
+                </div>
+                <div class="chat">
+                    <div class="chatphoto"><img src="imgs/photo 7.png" alt="" width="62vw"></div>
+                    <div class="chattxt">
+                        <span>Unknown Number</span> <br>
+                        <p><i class="fa-solid fa-thumbs-up" style="color: #FFD43B;"></i><i class="fa-solid fa-thumbs-up"
+                                style="color: #FFD43B;"><i class="fa-solid fa-thumbs-up"
+                                    style="color: #FFD43B;"></i></i></p>
+                    </div>
+                </div>
+                <div class="chat">
+                    <div class="chatphoto"><img src="imgs/photo 1.png" alt="" width="62vw"></div>
+                    <div class="chattxt">
+                        <span>Unknown Number</span> <br>
+                        <p>Reacted <i class="fa-solid fa-thumbs-up" style="color: #FFD43B;"></i> To Your Message</p>
+                    </div>
+                </div>
+                <div class="chat">
+                    <div class="chatphoto"><img src="imgs/photo 2.png" alt="" width="62vw"></div>
+                    <div class="chattxt">
+                        <span>Unknown Number</span> <br>
+                        <p><i class="fa-regular fa-image"></i> Photo</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg"></div>
+        <div class="right">
+            <div class="rightnav">
+                <div class="profile">
+                    <div class="pp">
+                        <img src="imgs/photo 4.png" alt="" width="55vw">
+                    </div>
+                    <div class="name">
+                        <span>Unknown Number</span>
+                        <p>Last seen today at 12:37</p>
+                    </div>
+                </div>
+                <div class="icons">
+                    <i class="fa-solid fa-phone" title="Voice Call"></i>
+                    <i class="fa-solid fa-video" title="Video Call"></i>
+                    <i class="fa-solid fa-magnifying-glass" title="Search"></i>
+                    <i class="fa-solid fa-ellipsis-vertical" title="Menu"></i>
+                </div>
+            </div>
+            <div class="msgs">
+                <!-- <div class="msg1">Hello<i class="fa-solid fa-check-double" style="color: #74C0FC;"></i></div> -->
+                <div class="msg2">How Are You?<i class="fa-solid fa-check-double" style="color: #74C0FC;"></i></div>
+            </div>
+            <div class="footer">
+                <div class="footericons">
+                    <i class="fa-regular fa-face-smile"></i>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="footermsg">
+                    <input type="text" name="" id="" placeholder="Type a message">
+                </div>
+                <div class="footericons2">
+                    <i class="fa-solid fa-microphone"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
