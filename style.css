@@ -2,6 +2,508 @@
     font-family: Whatsapp font;
     src: url(fonts/Helvetica.ttf);
 }
+@media (max-width: 320px) {
+    .right {
+        display: none;
+    }
+    .main .nav {
+        display: none;
+    }
+    .bg {
+        display: none;
+    }
+    .main .left {
+        padding-left: 0vh;
+    }
+    .left h1 {
+        font-size: 2.2vh;
+        margin-top: 0.7vh;
+    }
+    .main .left {
+        height: fit-content;
+        width: fit-content;
+    }
+    .main .mainnav {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 2vh;
+        padding-right: 2vh;
+        padding-top: 1vh;
+    }
+    .main .navicons {
+        margin-left: 22vh;
+        padding-top: 1vh;
+        cursor: pointer;
+        height: max-content;
+        display: flex;
+        gap: 2vh;
+    }
+    .main .left input {
+        border: none;
+        height: 5.2vh;
+        width: 87.5vw;
+        margin-left: 1.9vh;
+        padding-left: 2vh;
+        color: white;
+        outline: none;
+        font-size: 1.7vh;
+        border-radius: 0.9vh;
+        background-color: rgb(32, 44, 51);
+    }
+    .left input::placeholder {
+        color: rgb(158, 175, 185);
+        font-size: 1.7vh;
+    }
+    .main .chats {
+        margin-top: 2vh;
+        margin-left: 1vh;
+        width: 100vw;
+        overflow: scroll;
+        overflow-x: hidden;
+        scrollbar-color: #ffffff29 transparent;
+        scrollbar-width: thin;
+    }
+    .main .chat {
+        display: flex;
+        gap: 0.7vh;
+        width: 100vw;
+        border-bottom: 1px solid #8696a051;
+        padding-bottom: 1vh;
+        padding-top: 1vh;
+        cursor: pointer;
+    }
+    .chat1 {
+        background-color: rgb(42, 57, 66);
+        cursor: pointer;
+        display: flex;
+        gap: 0.7vh;
+        border-bottom: 1px solid #8696a051;
+        padding-bottom: 1vh;
+        padding-top: 1vh;
+        cursor: pointer;
+    }
+    
+    .chattxt span {
+        font-weight: 500;
+        font-size: 1.8vh;
+        margin-bottom: 3vh;
+    }
+    .chattxt {
+        margin-top: 0.7vh;
+    }
+    .chattxt p {
+        color: #8696a0;
+        font-size: 1.6vh;
+        margin-top: 0.6vh;
+    }
+    .main .left img {
+        height: 6vh;
+        width: 14vw;
+    }
+    body .main {
+        height: 96vh;
+        width: 90%;
+        display: flex;
+        margin-left: 0%;
+        margin-top: 0vh;
+    } 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width:375px) {
+    .right {
+        display: none;
+    }
+    .main .nav {
+        display: none;
+    }
+    .bg {
+        display: none;
+    }
+    .main .left {
+        padding-left: 0vh;
+    }
+    .left h1 {
+        font-size: 2.2vh;
+        margin-top: 0.7vh;
+    }
+    .main .left {
+        height: fit-content;
+        width: fit-content;
+    }
+    .main .mainnav {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 2vh;
+        padding-right: 2vh;
+        padding-top: 1vh;
+    }
+    .main .navicons {
+        margin-left: 22vh;
+        padding-top: 1vh;
+        cursor: pointer;
+        height: max-content;
+        display: flex;
+        gap: 2vh;
+    }
+    .main .left input {
+        border: none;
+        height: 5.2vh;
+        width: 87.5vw;
+        margin-left: 1.9vh;
+        padding-left: 2vh;
+        color: white;
+        outline: none;
+        font-size: 1.7vh;
+        border-radius: 0.9vh;
+        background-color: rgb(32, 44, 51);
+    }
+    .left input::placeholder {
+        color: rgb(158, 175, 185);
+        font-size: 1.7vh;
+    }
+    .main .chats {
+        margin-top: 2vh;
+        margin-left: 1vh;
+        width: 100vw;
+        overflow: scroll;
+        overflow-x: hidden;
+        scrollbar-color: #ffffff29 transparent;
+        scrollbar-width: thin;
+    }
+    .main .chat {
+        display: flex;
+        gap: 0.7vh;
+        width: 100vw;
+        border-bottom: 1px solid #8696a051;
+        padding-bottom: 1vh;
+        padding-top: 1vh;
+        cursor: pointer;
+    }
+    .chat1 {
+        background-color: rgb(42, 57, 66);
+        cursor: pointer;
+        display: flex;
+        gap: 0.7vh;
+        border-bottom: 1px solid #8696a051;
+        padding-bottom: 1vh;
+        padding-top: 1vh;
+        cursor: pointer;
+    }
+    
+    .chattxt span {
+        font-weight: 500;
+        font-size: 1.8vh;
+        margin-bottom: 3vh;
+    }
+    .chattxt {
+        margin-top: 0.7vh;
+    }
+    .chattxt p {
+        color: #8696a0;
+        font-size: 1.6vh;
+        margin-top: 0.6vh;
+    }
+    .main .left img {
+        height: 6vh;
+        width: 14vw;
+    }
+    body .main {
+        height: 96vh;
+        width: 90%;
+        display: flex;
+        margin-left: 0%;
+        margin-top: 0vh;
+    } 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 375px) and (max-width:425px) {
+    .right {
+        display: none;
+    }
+    .main .nav {
+        display: none;
+    }
+    .bg {
+        display: none;
+    }
+    .main .left {
+        padding-left: 0vh;
+    }
+    .left h1 {
+        font-size: 2.2vh;
+        margin-top: 0.7vh;
+    }
+    .main .left {
+        height: fit-content;
+        width: fit-content;
+    }
+    .main .mainnav {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 2vh;
+        padding-right: 2vh;
+        padding-top: 1vh;
+    }
+    .main .navicons {
+        margin-left: 22vh;
+        padding-top: 1vh;
+        cursor: pointer;
+        height: max-content;
+        display: flex;
+        gap: 2vh;
+    }
+    .main .left input {
+        border: none;
+        height: 5.2vh;
+        width: 87.5vw;
+        margin-left: 1.9vh;
+        padding-left: 2vh;
+        color: white;
+        outline: none;
+        font-size: 1.7vh;
+        border-radius: 0.9vh;
+        background-color: rgb(32, 44, 51);
+    }
+    .left input::placeholder {
+        color: rgb(158, 175, 185);
+        font-size: 1.7vh;
+    }
+    .main .chats {
+        margin-top: 2vh;
+        margin-left: 1vh;
+        width: 100vw;
+        overflow: scroll;
+        overflow-x: hidden;
+        scrollbar-color: #ffffff29 transparent;
+        scrollbar-width: thin;
+    }
+    .main .chat {
+        display: flex;
+        gap: 0.7vh;
+        width: 100vw;
+        border-bottom: 1px solid #8696a051;
+        padding-bottom: 1vh;
+        padding-top: 1vh;
+        cursor: pointer;
+    }
+    .chat1 {
+        background-color: rgb(42, 57, 66);
+        cursor: pointer;
+        display: flex;
+        gap: 0.7vh;
+        border-bottom: 1px solid #8696a051;
+        padding-bottom: 1vh;
+        padding-top: 1vh;
+        cursor: pointer;
+    }
+    
+    .chattxt span {
+        font-weight: 500;
+        font-size: 1.8vh;
+        margin-bottom: 3vh;
+    }
+    .chattxt {
+        margin-top: 0.7vh;
+    }
+    .chattxt p {
+        color: #8696a0;
+        font-size: 1.6vh;
+        margin-top: 0.6vh;
+    }
+    .main .left img {
+        height: 6vh;
+        width: 14vw;
+    }
+    body .main {
+        height: 96vh;
+        width: 90%;
+        display: flex;
+        margin-left: 0%;
+        margin-top: 0vh;
+    } 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 425px) and (max-width: 768px) {
+    .right {
+        display: none;
+    }
+    .main .nav {
+        display: none;
+    }
+    .bg {
+        display: none;
+    }
+    .main .left {
+        padding-left: 0vh;
+    }
+    .left h1 {
+        font-size: 2.2vh;
+        margin-top: 0.7vh;
+    }
+    .main .left {
+        height: fit-content;
+        width: fit-content;
+    }
+    .main .mainnav {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 2vh;
+        padding-right: 2vh;
+        padding-top: 1vh;
+    }
+    .main .navicons {
+        margin-left: 22vh;
+        padding-top: 1vh;
+        cursor: pointer;
+        height: max-content;
+        display: flex;
+        gap: 2vh;
+    }
+    .main .left input {
+        border: none;
+        height: 5.2vh;
+        width: 87.5vw;
+        margin-left: 1.9vh;
+        padding-left: 2vh;
+        color: white;
+        outline: none;
+        font-size: 1.7vh;
+        border-radius: 0.9vh;
+        background-color: rgb(32, 44, 51);
+    }
+    .left input::placeholder {
+        color: rgb(158, 175, 185);
+        font-size: 1.7vh;
+    }
+    .main .chats {
+        margin-top: 2vh;
+        margin-left: 1vh;
+        width: 100vw;
+        overflow: scroll;
+        overflow-x: hidden;
+        scrollbar-color: #ffffff29 transparent;
+        scrollbar-width: thin;
+    }
+    .main .chat {
+        display: flex;
+        gap: 0.7vh;
+        width: 100vw;
+        border-bottom: 1px solid #8696a051;
+        padding-bottom: 1vh;
+        padding-top: 1vh;
+        cursor: pointer;
+    }
+    .chat1 {
+        background-color: rgb(42, 57, 66);
+        cursor: pointer;
+        display: flex;
+        gap: 0.7vh;
+        border-bottom: 1px solid #8696a051;
+        padding-bottom: 1vh;
+        padding-top: 1vh;
+        cursor: pointer;
+    }
+    
+    .chattxt span {
+        font-weight: 500;
+        font-size: 1.8vh;
+        margin-bottom: 3vh;
+    }
+    .chattxt {
+        margin-top: 0.7vh;
+    }
+    .chattxt p {
+        color: #8696a0;
+        font-size: 1.6vh;
+        margin-top: 0.6vh;
+    }
+    .main .left img {
+        height: 6vh;
+        width: 8vw;
+    }
+    body .main {
+        height: 96vh;
+        width: 90%;
+        display: flex;
+        margin-left: 0%;
+        margin-top: 0vh;
+    } 
+}
 body {
     background-color: rgb(12, 19, 23);
     color: white;
